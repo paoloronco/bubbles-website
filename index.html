@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bubble's WebSite</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Cambiato height a min-height per evitare tagli */
+        background: linear-gradient(to bottom, rgba(121, 171, 218, 1), rgba(173, 204, 233, 1));
+        box-sizing: border-box;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap; /* Permette al menu di andare a capo */
+        justify-content: center;
+        padding: 10px 0; /* Aggiunto padding per creare spazio sopra e sotto */
+        margin-bottom: 20px;
+        z-index: 1; /* Imposta il menu sopra i cerchi */
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .menu a {
+        margin: 10px 20px; /* Modificato il margine per dare più spazio ai link */
+        font-size: 25px;
+        color: #000000;
+        text-decoration: underline;
+    }
+
+    .menu:hover {
+        transform: scale(1.1); /* Ridotto il valore per evitare troppa espansione */
+    }
+
+    .menu a:hover {
+        text-decoration: underline;
+    }
+
+    .chart {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .bubble {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 19px;
+        background-color: #3b3f45;
+        color: #fff;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        border-radius: 50%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .bubble:hover {
+        transform: scale(2);
+    }
+
+    @media (max-width: 768px) {
+        .bubble {
+            width: 40vw;
+            height: 40vw;
+            max-width: 120px;
+            max-height: 120px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .menu {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu a {
+            margin: 5px 0;
+            font-size: 20px;
+        }
+
+        .bubble {
+            width: 30vw;
+            height: 30vw;
+            max-width: 90px;
+            max-height: 90px;
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="menu">
+    <a href="https://github.com/paoloronco">Link 1</a>
+    <a href="https://github.com/paoloronco">Link 2</a>
+</div>
+
+  <div class="chart">
+   <div class="bubble">Bubble 1</div>
+   <div class="bubble">Bubble 2</div>
+   <div class="bubble">Bubble 3</div>
+   <div class="bubble">Bubble 4</div>
+   <div class="bubble">Bubble 5</div>
+   <div class="bubble">Bubble 6</div>
+   <div class="bubble">Bubble 7</div>
+   <div class="bubble">Bubble 8</div>
+   <div class="bubble">Bubble 9</div>
+   <div class="bubble">Bubble 10</div>
+   <div class="bubble">Bubble 11</div>
+   <div class="bubble">Bubble 12</div>
+   <div class="bubble">Bubble 13</div>
+   <div class="bubble">Bubble 14</div>
+   <div class="bubble">Bubble 15</div>
+   <div class="bubble">Bubble 16</div>
+   <div class="bubble">Bubble 17</div>
+   <div class="bubble">Bubble 18</div>
+   <div class="bubble">Bubble 19</div>
+   <div class="bubble">Bubble 20</div>
+   <div class="bubble">Bubble 21</div>
+   <div class="bubble">Bubble 22</div>
+   <div class="bubble">Bubble 23</div>
+   <div class="bubble">Bubble 24</div>
+   <div class="bubble">Bubble 25</div>
+   <div class="bubble">Bubble 26</div>
+   <div class="bubble">Bubble 27</div>
+   <div class="bubble">Bubble 28</div>
+   <div class="bubble">Bubble 29</div>
+   <div class="bubble">Bubble 30</div>
+   <div class="bubble">Bubble 31</div>
+   <div class="bubble">Bubble 32</div>
+   <div class="bubble">Bubble 33</div>
+   <div class="bubble">Bubble 34</div>
+   <div class="bubble">Bubble 35</div>
+   <div class="bubble">Bubble 36</div>
+   <div class="bubble">Bubble 37</div>
+   <div class="bubble">Bubble 38</div>
+   <div class="bubble">Bubble 39</div>
+   <div class="bubble">Bubble 40</div>
+   <div class="bubble">Bubble 41</div>
+   <div class="bubble">Bubble 42</div>
+   <div class="bubble">Bubble 43</div>
+   <div class="bubble">Bubble 44</div>
+   <div class="bubble">Bubble 45</div>
+   <div class="bubble">Bubble 46</div>
+   <div class="bubble">Bubble 47</div>
+   <div class="bubble">Bubble 48</div>
+   <div class="bubble">Bubble 49</div>
+   <div class="bubble">Bubble 50</div>
+   <div class="bubble">Bubble 51</div>
+   <div class="bubble">Bubble 52</div>
+   <div class="bubble">Bubble 53</div>
+   <div class="bubble">Bubble 54</div>
+   <div class="bubble">Bubble 55</div>
+   <div class="bubble">Bubble 56</div>
+   <div class="bubble">Bubble 57</div>
+   <div class="bubble">Bubble 58</div>
+   <div class="bubble">Bubble 59</div>
+   <div class="bubble">Bubble 60</div>
+   <div class="bubble">Bubble 61</div>
+   <div class="bubble">Bubble 62</div>
+   <div class="bubble">Bubble 63</div>
+   <div class="bubble">Bubble 64</div>
+   <div class="bubble">Bubble 65</div>
+   <div class="bubble">Bubble 66</div>
+   <div class="bubble">Bubble 67</div>
+   <div class="bubble">Bubble 68</div>
+   <div class="bubble">Bubble 69</div>
+   <div class="bubble">Bubble 70</div>
+   <div class="bubble">Bubble 71</div>
+   <div class="bubble">Bubble 72</div>
+   <div class="bubble">Bubble 73</div>
+   <div class="bubble">Bubble 74</div>
+   <div class="bubble">Bubble 75</div>
+   <div class="bubble">Bubble 76</div>
+   <div class="bubble">Bubble 77</div>
+   <div class="bubble">Bubble 78</div>
+   <div class="bubble">Bubble 79</div>
+   <div class="bubble">Bubble 80</div>
+</div>
+
+
+</body>
+</html>
